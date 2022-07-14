@@ -13,23 +13,58 @@
 <h1>University of Narnia Expression of Interest </h1>
 <!--An input box for each name needed, letters only validation and sanitation -->
 <h4>First Name</h4>
+<form>
+    <input type="text" name="First Name" placeholder="First Name">
+</form>
+
 <h4>Last Name</h4>
+<form>
+    <input type="text" name="Last Name" placeholder="Last Name">
+</form>
 <!--An input box for each name needed, letters only validation and sanitation -->
 <h4>Date of Birth</h4> 
-<!--Selctable table? Numbers only-->
+<input type="date" name="DOB"
+ value="2020-01-01"
+ min="1925-01-01" max="2022-14-06">
+<!-- Selctable table? Numbers only-->
 <h4>Home Address</h4>
 <h5>Address Line 1</h5>
+<form>
+    <input type="text" name="Address Line" placeholder="Address Line 1">
+</form>
 <h5>Address Line 2</h5>
+<form>
+    <input type="text" name="Address Line" placeholder="Address Line 2">
+</form>
 <h5>City</h5>
+<form>
+    <input type="text" name="Address Line" placeholder="City">
+</form>
 <h5>Postcode</h5>
-
+<form>
+    <input type="text" name="Address Line" placeholder="Postcode">
+</form>
+<!--Validate postcode?-->
 <h4>School Attended</h4> 
+<input type="text" name="School Attended" placeholder="School Attended">
 <!-- Letters Only-->
 <h4>Year of High School Graduation</h4>
+<input type="text" name="Grad" placeholder="2000">
+
 <!--4 numbers only, only within last 100 years?-->
 <h4>Grades Achieved</h4>
+
 <!--One input box for subject (letters only) and then selectable list of options, select education jurdictionand then display corresponding list of appropriate grades? -->
 <h4>Course of Interest</h4>
+<form>
+    <input type="radio"  name="courses" id="Wizardery" value="Wizardery">
+    <label for="Wizardery">Wizardery</label><br>
+    <input type="radio" name="courses" id="Witchcraft" value="Witchcraft">
+    <label for="Witchcraft">Witchcraft</label><br>
+    <input type="radio" name="courses" id="Sorcery" value="Sorcery">
+    <label for="Sorcery">Sorcery</label>
+</form>
+ 
 <!--Selctable list of courses-->
 
 <!--Will also need a submit button and confirmation page-->
